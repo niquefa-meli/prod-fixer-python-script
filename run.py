@@ -79,5 +79,3 @@ data = pandas.read_csv("input.csv")
 for _, row in data.iterrows():
     process_response = process(row.shipment_id)
     print(f"{row.shipment_id}\t" + process_response)
-
-

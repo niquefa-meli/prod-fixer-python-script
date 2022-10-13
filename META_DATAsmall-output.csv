@@ -1,0 +1,10 @@
+small-output.csv	META_DATA
+status	count
+422	3
+200	3
+400	1
+logistic_type	count
+drop_off	4
+logistic_status_map	count
+('422', 'drop_off')	3
+('400', 'drop_off')	1
