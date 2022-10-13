@@ -20,7 +20,7 @@ from pprint import pprint
 # --data-raw ''
 
 
-TOKEN = "ada9595daa5ee17209acc2593a370d3104b5fcdbaf5d26169c00546d752e0d6a"
+TOKEN = "TOKEN_GOES_HERE"
 FIELDS_TO_SAVE_FROM_SHIPMENT_RESPONSES = [
     "date_created",
     "logistic",
