@@ -31,7 +31,11 @@ def process(shipment_id: str, pack_id: str):
         headers={"x-auth-token": TOKEN},
     )
     res = json.loads(res.text)
-    return checkpoint7000["checkpoint_date"], checkpoint1001["checkpoint_date"], res["date_created"]
+    return (
+        checkpoint7000["checkpoint_date"],
+        checkpoint1001["checkpoint_date"],
+        res["date_created"],
+    )
 
 
 def persist_results(results):
@@ -40,7 +44,13 @@ def persist_results(results):
         mode="a",
         index=False,
         header=False,
-        columns=["shipment_id", "pack_id", "checkpoint_date_7000", "checkpoint_date_1001", "pack_date_created"],
+        columns=[
+            "shipment_id",
+            "pack_id",
+            "checkpoint_date_7000",
+            "checkpoint_date_1001",
+            "pack_date_created",
+        ],
     )
 
 
@@ -55,7 +65,11 @@ def proccess_chunk(data, processed, chunk):
             try:
                 if not shipment_id in processed:
 
-                    checkpoint_date_7000, checkpoint_date_1001, pack_date_created = process(shipment_id, pack_id)
+                    (
+                        checkpoint_date_7000,
+                        checkpoint_date_1001,
+                        pack_date_created,
+                    ) = process(shipment_id, pack_id)
 
                     results.append(
                         {

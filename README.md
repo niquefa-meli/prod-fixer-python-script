@@ -52,3 +52,14 @@ The command to use is `black . -l 120`.
 
 All MeLi contribution are welcome. Make sure to test everything and run `black . -l 120` before making any pull request. 
 
+# run_integrator_detection.py
+
+Script to combine output form the audit tool on fury with what the shipments get endpoints return. Easily customizable. It uses input from file passed as parameter, print some info messages in its executions, but the generated cvs is the second argument for example:
+
+```python3 run_integrator_detection.py input_file.csv desirable_output_file.csv```
+
+For example, with a given small input file: 
+
+```python3 run_integrator_detection.py small-audit-splitter-400.csv small-output.csv```
+
+The script also produces a file META_DATAdesirable_output_file.csv in which are some counting of interest.

@@ -1,0 +1,24 @@
+2-big-output.csv	META_DATA
+status	count
+200	9790
+422	43
+423	10
+400	143
+503	10
+409	4
+logistic_type	count
+cross_docking	145
+fulfillment	38
+drop_off	14
+xd_drop_off	3
+logistic_status_map	count
+('422', 'cross_docking')	37
+('423', 'cross_docking')	9
+('400', 'fulfillment')	35
+('422', 'drop_off')	4
+('400', 'cross_docking')	98
+('422', 'xd_drop_off')	2
+('409', 'fulfillment')	3
+('400', 'drop_off')	10
+('423', 'xd_drop_off')	1
+('409', 'cross_docking')	1
