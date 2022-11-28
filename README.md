@@ -63,3 +63,11 @@ For example, with a given small input file:
 ```python3 run_integrator_detection.py small-audit-splitter-400.csv small-output.csv```
 
 The script also produces a file META_DATAdesirable_output_file.csv in which are some counting of interest.
+
+# Rnn run_fulfillment_errors_printer
+
+This script uses a hard-coded token and a hard-coded, it takes as argument an input file in a specific format and the name of the output file to print: 
+
+Example
+
+```python3 run_fulfillment_errors_printer.py 2022-11-24.csv 2022-11-24output.txt```
