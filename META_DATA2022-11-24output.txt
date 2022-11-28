@@ -1,0 +1,30 @@
+2022-11-24output.txt	META_DATA
+status	count
+STATUS NOT FOUND	14995
+200	12759
+400	2111
+422	64
+409	7
+423	20
+401	29
+503	7
+500	8
+logistic_type	count
+cross_docking	1868
+fulfillment	187
+drop_off	161
+xd_drop_off	15
+logistic_status_map	count
+('400', 'cross_docking')	1787
+('400', 'fulfillment')	157
+('422', 'cross_docking')	57
+('409', 'cross_docking')	2
+('423', 'cross_docking')	18
+('400', 'drop_off')	156
+('422', 'drop_off')	3
+('401', 'cross_docking')	4
+('422', 'xd_drop_off')	4
+('409', 'fulfillment')	5
+('401', 'fulfillment')	25
+('400', 'xd_drop_off')	11
+('423', 'drop_off')	2

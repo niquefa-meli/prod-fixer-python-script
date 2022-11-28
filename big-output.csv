@@ -1,4 +1,7 @@
 timestamp;date_created;status_in_resource_data;source.site_id;resource_id;id_in_shipment_get;logistic.type;external_reference;resource_data
+2022-10-10 19:28:11.415;2022-10-10T15:27:39.743-04:00;409;MLM;41715665734;41715665734;fulfillment;2000003872178733;{"current":{"body":"{\"error\": \"Resource locked: /packs/2000003872178733/split?caller.id=775542843\u0026client.id=1360974954364596\"}","requestId":"ddb95801-3cdc-41e0-91cb-8320096f9229","status":409},"previous":null}
+
+
 2022-10-10 00:00:04.740;2022-10-09T19:32:32.720-04:00;422;MLA;41713649980;41713649980;drop_off;2000003873635989;{"current":{"body":"{\"error\": \"Shipment 41713649980 can't be splitted at this point. Invalid status.\"}","requestId":"38d1d301-4779-4b6d-ba13-10020fb7bcb4","status":422},"previous":null}
 2022-10-10 00:00:06.223;2022-10-09T19:32:32.720-04:00;422;MLA;41713649980;41713649980;drop_off;2000003873635989;{"current":{"body":"{\"error\": \"Shipment 41713649980 can't be splitted at this point. Invalid status.\"}","requestId":"072c434c-e03d-40f8-ab9e-a1e00d2934dc","status":422},"previous":null}
 2022-10-10 00:00:26.279;2022-10-09T19:32:32.720-04:00;422;MLA;41713649980;41713649980;drop_off;2000003873635989;{"current":{"body":"{\"error\": \"Shipment 41713649980 can't be splitted at this point. Invalid status.\"}","requestId":"25c7b3fb-5d49-4e64-a26d-cb8713d0b001","status":422},"previous":null}
